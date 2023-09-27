@@ -15,6 +15,19 @@ source env/bin/activate
 export ENVIRONMENT=test
 ```
 
+## Access database via psql
+
+```bash
+docker-compose exec web-db psql -U postgres
+
+postgres=# \c web_dev
+
+# See List of relations
+web_dev=# \dt
+
+web_dev=# \q
+```
+
 ## Contribution
 
 We welcome contributions! Whether it's improving documentation, adding new insights, or sharing your unique experience with FastAPI, please feel free to make a pull request or open an issue.

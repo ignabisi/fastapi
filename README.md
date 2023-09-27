@@ -34,8 +34,14 @@ We welcome contributions! Whether it's improving documentation, adding new insig
 
 ### Useful Links
 
-[Introduction to ASGI](https://florimond.dev/en/posts/2019/08/introduction-to-asgi-async-python-web/)
-[Functools - lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache)
-[Docker Best Practices](https://testdriven.io/blog/docker-best-practices/)
-[Tortoise ORM Migration](https://tortoise.github.io/migration.html)
-[Tortoise-Aerich](https://github.com/tortoise/aerich)
+- [Introduction to ASGI](https://florimond.dev/en/posts/2019/08/introduction-to-asgi-async-python-web/)
+
+- [Functools - lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache)
+
+- [Docker Best Practices](https://testdriven.io/blog/docker-best-practices/)
+
+- [Tortoise ORM Migration](https://tortoise.github.io/migration.html)
+
+- [Tortoise-Aerich](https://github.com/tortoise/aerich)
+
+- [Testing|Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)

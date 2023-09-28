@@ -32,6 +32,37 @@ web_dev=# \q
 
 We welcome contributions! Whether it's improving documentation, adding new insights, or sharing your unique experience with FastAPI, please feel free to make a pull request or open an issue.
 
+## Useful docker commands
+
+```bash
+# normal run
+$ docker-compose exec web python -m pytest
+
+# disable warnings
+$ docker-compose exec web python -m pytest -p no:warnings
+
+# run only the last failed tests
+$ docker-compose exec web python -m pytest --lf
+
+# run only the tests with names that match the string expression
+$ docker-compose exec web python -m pytest -k "summary and not test_read_summary"
+
+# stop the test session after the first failure
+$ docker-compose exec web python -m pytest -x
+
+# enter PDB after first failure then end the test session
+$ docker-compose exec web python -m pytest -x --pdb
+
+# stop the test run after two failures
+$ docker-compose exec web python -m pytest --maxfail=2
+
+# show local variables in tracebacks
+$ docker-compose exec web python -m pytest -l
+
+# list the 2 slowest tests
+$ docker-compose exec web python -m pytest --durations=2
+```
+
 ### Useful Links
 
 - [Introduction to ASGI](https://florimond.dev/en/posts/2019/08/introduction-to-asgi-async-python-web/)

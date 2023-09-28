@@ -72,6 +72,8 @@ $ docker-compose exec web python -m pytest --durations=2
 
 - [🔍Testing|Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)
 
+- [📚Heroku Alternatives for Python-based Applications](https://testdriven.io/blog/heroku-alternatives/)
+
 ## 🤝 Join the Party
 
 Contribute to the treasure! From refining docs, adding fresh insights, to sharing your signature FastAPI journey - we’re all ears! Jump right in with a pull request or kick things off with an issue. 🎉
